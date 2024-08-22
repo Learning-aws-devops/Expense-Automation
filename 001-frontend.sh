@@ -37,7 +37,7 @@ COLOR Extracting $COMPONENT
 unzip -o /tmp/$COMPONENT.zip &>> $LOG
 stat $?
 
-COLOR Starting $COMPONENT
+COLOR Starting $COMPONENT &>> $LOG
 systemctl restart nginx  
 stat $?
 

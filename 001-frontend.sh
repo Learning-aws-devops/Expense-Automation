@@ -38,7 +38,7 @@ unzip -o /tmp/$COMPONENT.zip &>> $LOG
 stat $?
 
 COLOR Starting $COMPONENT
-systemctl restart nginx  &>> $LOG
+systemctl restart nginx  
 stat $?
 
 echo -e "\n\t** $COMPONENT Installation Is Completed **"

@@ -23,3 +23,6 @@ mysql_secure_installation --set-root-pass $ROOTPASS  &>> $LOG
 stat $?
 
 echo -e "\n\t ** $COMPOMENT Installation Completed **"
+
+### mysql commands
+### sudo mysql                               show databases ;                   select * from transactions; 
